@@ -13,8 +13,8 @@ Process a current AR:
 Process a past AR:
 > python sunspot_detection_size.py 14274 --t 2025-10-14T01:15:00
 
---no-size will suppress the size infobox on the final plot
+--no-size will suppress the size infobox on the final plot  
 --ignore-x-left [num] and --ignore-x-right [num] will mask off [num] pixels from the left/right edge -- useful for limb regions
 
-If you're picking up too much non-sunspot stuff, try increasing --bg-sigma (either via param or edit the code itself)
+If you're picking up too much non-sunspot stuff, try increasing --bg-sigma (either via param or edit the code itself)  
 Default size minimum is 50 pixels (helps avoid picking up odd dark granules and such), but this filters out some tiny umbra/penumbra spots at times
